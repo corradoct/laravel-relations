@@ -1,0 +1,28 @@
+.songView{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+
+  .image {
+    margin: 0 auto;
+  }
+
+  .details {
+    h1 {
+      text-transform: uppercase;
+    }
+  }
+
+  .songs {
+
+    .songsList {
+      width: 50%;
+      margin: 0 auto;
+      text-align: left;
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}

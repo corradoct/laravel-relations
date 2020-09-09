@@ -1,0 +1,12 @@
+.index {
+  text-align: center;
+
+  .albums {
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+}
