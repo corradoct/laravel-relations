@@ -1,6 +1,7 @@
 @extends('layouts.layout')
 
 @section('main_content')
+
 <div class="index">
   <h1>Album</h1>
 
@@ -22,6 +23,7 @@
   </div>
 
   <a href="/">Home</a>
+  <a href="{{ route('album.create') }}">Crea un nuovo album</a>
 </div>
 
 

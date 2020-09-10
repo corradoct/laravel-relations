@@ -19,4 +19,8 @@ class Album extends Model
     public function image() {
       return $this->hasOne('App\Image');
     }
+
+    public function tags() {
+      return $this->belongsToMany('App\Tag');
+    }
 }
